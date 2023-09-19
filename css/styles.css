@@ -1,8 +1,9 @@
-:root {
+/* :root {
   --main-color: #2e2f42;
   --logo-button-color: #4d5ae5;
   --text-color: #434455;
-}
+} */
+/* =========COMMON.CSS=========
 h1,
 h2,
 h3,
@@ -36,8 +37,9 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--text-color);
   background-color: #ffffff;
-}
-.visually-hidden {
+} */
+
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -48,15 +50,18 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 /*Хедер*/
+
+/* =======IMPORT CONTAINER.CSS=========
 .container {
   width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-}
+} */
+/* ========IMPORT LAYOUT HEADER.CSS===========
 .page-header-container {
   display: flex;
   justify-content: space-between;
@@ -165,7 +170,7 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
-}
+} */
 /* Секція 1 */
 .big-board {
   background: var(--main-color);
