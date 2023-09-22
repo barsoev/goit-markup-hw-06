@@ -6,3 +6,4 @@
 @import "./utils/variable.css";
 /* =====LAYOUT======= */
 @import "./layout/header.css";
+@import "./layout/hero.css";

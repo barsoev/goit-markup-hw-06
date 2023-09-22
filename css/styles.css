@@ -172,7 +172,7 @@ body {
   color: #404bbf;
 } */
 /* Секція 1 */
-.big-board {
+/* .big-board {
   background: var(--main-color);
   line-height: 1.07;
   padding: 188px 0;
@@ -206,7 +206,7 @@ body {
   color: var(--white, #fff);
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.04em;
   display: block;
   margin-left: auto;
@@ -221,7 +221,7 @@ body {
 .order-service:hover,
 .order-service:focus {
   background-color: #404bbf;
-}
+} */
 /* Секція 2 */
 .about-us-list {
   display: flex;
