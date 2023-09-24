@@ -34,10 +34,10 @@
               >
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="">Portfolio</a>
+              <a class="menu-link link" href="#">Portfolio</a>
             </li>
             <li class="menu-item">
-              <a class="menu-link link" href="">Contacts</a>
+              <a class="menu-link link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -152,13 +152,14 @@
         </div>
       </section>
       <!--Наша команда-->
-      <!-- <section class="team">
+      <section class="team">
         <div class="container">
           <h2 class="team-title">Our Team</h2>
           <ul class="team-list list">
             <li class="team-list-item">
               <img
                 class="team-list-img"
+                srcset="./images/ours-tem/mobile/mark@2x.jpg 2x"
                 src="./images/ours-tem/product-designer.jpg"
                 alt="photo product-desiner"
                 width="264"
@@ -222,6 +223,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
+                srcset="./images/ours-tem/mobile/tom@2x.jpg 2x"
                 src="./images/ours-tem/developer.jpg"
                 alt="photo frontend-developer"
                 width="264"
@@ -285,6 +287,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
+                srcset="./images/ours-tem/mobile/camila@2x.jpg 2x"
                 src="./images/ours-tem/marketing.jpg"
                 alt="photo marketing"
                 width="264"
@@ -348,6 +351,7 @@
             <li class="team-list-item">
               <img
                 class="team-list-img"
+                srcset="./images/ours-tem/mobile/daniel@2x.jpg 2x"
                 src="./images/ours-tem/ui-designer.jpg"
                 alt="photo ui-designer"
                 width="264"
@@ -410,15 +414,27 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!--Наше Портфоліо-->
-      <!-- <section class="portfolio">
+      <section class="portfolio" id="portfolio">
         <div class="container">
           <h2 class="portfolio-main-title">Our Portfolio</h2>
           <ul class="portfolio-list list">
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
                 <img
+                  srcset="
+                    ./images/portfolio/mobile/banking@1x.jpg  288w,
+                    ./images/portfolio/mobile/banking@2x.jpg  576w,
+                    ./images/portfolio/tablet/banking@1x.jpg  356w,
+                    ./images/portfolio/tablet/banking@2x.jpg  712w,
+                    ./images/portfolio/desktop/banking@1x.jpg 360w,
+                    ./images/portfolio/desktop/banking@2x.jpg 720w
+                  "
+                  sizes="
+									(min-width: 1158px) 360px,
+								    (min-width: 768px) 356px, 
+									(max-width: 767px) 288px"
                   src="./images/portfolio/bank-app.jpg"
                   alt="photo-bank-app"
                   width="360"
@@ -440,6 +456,18 @@
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
                 <img
+                  srcset="
+                    ./images/portfolio/mobile/cashless@1x.jpg  288w,
+                    ./images/portfolio/mobile/cashless@2x.jpg  574w,
+                    ./images/portfolio/tablet/cashless@1.jpg   356w,
+                    ./images/portfolio/tablet/cashless@2x.jpg  712w,
+                    ./images/portfolio/desktop/cashless@1x.jpg 356w,
+                    ./images/portfolio/desktop/cashless@2x.jpg 712w
+                  "
+                  sizes="
+									(min-width: 1158px) 356px, 
+									(min-width: 768px) 356px, 
+									(max-width: 767px) 288px"
                   src="./images/portfolio/phone-qr-code.jpg"
                   alt="photo-qr-code"
                   width="360"
@@ -461,6 +489,18 @@
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
                 <img
+                  srcset="
+                    ./images/portfolio/mobile/meditation@1x.jpg  288w,
+                    ./images/portfolio/mobile/meditation@2x.jpg  574w,
+                    ./images/portfolio/tablet/meditation@1x.jpg  356w,
+                    ./images/portfolio/tablet/meditation@2x.jpg  712w,
+                    ./images/portfolio/desktop/meditation@1x.jpg 360w,
+                    ./images/portfolio/desktop/meditation@2x.jpg 720w
+                  "
+                  sizes="
+									(min-width: 1158px) 360px, 
+									(min-width: 768px) 356px, 
+									(max-width: 767px) 288px"
                   src="./images/portfolio/laptop-phone.jpg"
                   alt="photo-laptop-and-phone"
                   width="360"
@@ -482,6 +522,18 @@
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
                 <img
+                  srcset="
+                    ./images/portfolio/mobile/taxi@1x.jpg  288w,
+                    ./images/portfolio/mobile/taxi@2x.jpg  574w,
+                    ./images/portfolio/tablet/taxi@1x.jpg  346w,
+                    ./images/portfolio/tablet/taxi@2x.jpg  712w,
+                    ./images/portfolio/desktop/taxi@1x.jpg 360w,
+                    ./images/portfolio/desktop/taxi@2x.jpg 720w
+                  "
+                  sizes="
+									(min-width: 1158px) 360px, 
+									(min-width: 768px) 356px, 
+									(max-width: 767px) 288px"
                   src="./images/portfolio/inside-car.jpg"
                   alt="photo-app-taxi"
                   width="360"
@@ -503,6 +555,18 @@
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
                 <img
+                  srcset="
+                    ./images/portfolio/mobile/screen@1x.jpg  288w,
+                    ./images/portfolio/mobile/screen@2x.jpg  574w,
+                    ./images/portfolio/tablet/screen@1x.jpg  356w,
+                    ./images/portfolio/tablet/screen@2x.jpg  712w,
+                    ./images/portfolio/desktop/screen@1x.jpg 360w,
+                    ./images/portfolio/desktop/screen@2x.jpg 720w
+                  "
+                  sizes="
+									(min-width: 1158px) 360px, 
+									(min-width: 768px) 356px, 
+									(max-width: 767px) 288px"
                   src="./images/portfolio/phone.jpg"
                   alt="photo-ilustrations"
                   width="360"
@@ -524,6 +588,18 @@
             <li class="portfolio-item">
               <div class="portfolio-overlay-container">
                 <img
+                  srcset="
+                    ./images/portfolio/mobile/online-courses@1x.jpg  288w,
+                    ./images/portfolio/mobile/online-courses@2x.jpg  574w,
+                    ./images/portfolio/tablet/online-courses@1x.jpg  356w,
+                    ./images/portfolio/tablet/online-courses@2x.jpg  712w,
+                    ./images/portfolio/desktop/online-courses@1x.jpg 360w,
+                    ./images/portfolio/desktop/online-courses@2x.jpg 720w
+                  "
+                  sizes="
+									(min-width: 1158px) 360px, 
+									(min-width: 768px) 356px, 
+									(max-width: 767px) 288px"
                   src="./images/portfolio/girl-with-phone.jpg"
                   alt="photo-girl-with-phone"
                   width="360"
@@ -544,7 +620,7 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
     </main>
     <!--ФУТЕР-->
     <!-- <footer class="footer">

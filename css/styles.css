@@ -263,7 +263,7 @@ body {
   letter-spacing: 0.02em;
 } */
 /* Секція 3 */
-.team {
+/* .team {
   background: #f4f4fd;
   padding: 120px 0;
 }
@@ -337,10 +337,10 @@ body {
 .personal-social-link:hover,
 .personal-social-link:focus {
   background-color: #404bbf;
-}
+} */
 
 /* Секція 4 */
-.portfolio {
+/* .portfolio {
   background: #fff;
   padding: 120px 0;
 }
@@ -425,7 +425,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
-}
+} */
 /* Футтер */
 .footer {
   background: #2e2f42;
