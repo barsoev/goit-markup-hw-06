@@ -427,7 +427,7 @@ body {
   letter-spacing: 0.32px;
 } */
 /* Футтер */
-.footer {
+/* .footer {
   background: #2e2f42;
 
   padding: 100px 0;
@@ -491,7 +491,7 @@ body {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17; 
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
@@ -499,11 +499,11 @@ body {
   color: #f4f4fd;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
   max-width: 265px;
 }
-/* =====FOOTER HW 5 ========= */
+ =====FOOTER HW 5 ========= 
 .footer-container-form {
   margin-left: 83px;
 }
@@ -576,9 +576,9 @@ body {
 .button-footer-form:focus {
   background-color: #404bbf;
   color: #ffffff;
-}
+} */
 /* =========BACKDROP=========== */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -804,4 +804,4 @@ body {
 .form-button:hover,
 .form-button:focus {
   background: var(--OCEAN, #404bbf);
-}
+} */
